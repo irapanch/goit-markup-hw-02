@@ -14,7 +14,7 @@
 }
 
 body {
-	font-family: "Roboto", "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	background-color: var(--white-background-color);
 	color: var(--text-color);
 }
@@ -40,8 +40,7 @@ body {
 /* =========== /COMPONENTS==== */
 
 /* ============HEADER== */
-.header {
-}
+
 .logo-dark {
 	color: var(--dark-color);
 }
@@ -74,8 +73,7 @@ body {
 }
 
 /* ========MAIN=============== */
-.container {
-}
+
 .hero-body {
 	background-color: var(--dark-color);
 }
@@ -101,14 +99,6 @@ body {
 .hero-button:focus {
 	background-color: var(--pressed-state-color);
 }
-.properties-body {
-}
-
-.activities-body {
-}
-.team-body {
-	background-color: var(--light-color);
-}
 
 .title-second {
 	font-weight: 700;
@@ -116,6 +106,8 @@ body {
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: var(--dark-color);
+	text-align: center;
+	text-transform: capitalize;
 }
 .title-third {
 	font-weight: 500;
@@ -129,6 +121,14 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
+
+.team-body {
+	background-color: var(--light-color);
+}
+
+.team-item {
+	background-color: var(--white-background-color);
+}
 /* ======FOOTER======== */
 .footer {
 	background-color: var(--dark-color);
@@ -141,6 +141,7 @@ body {
 }
 /* ===PORTFOLIO HTML===== */
 .filter-btn {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -155,4 +156,10 @@ body {
 	color: var(--white-background-color);
 	cursor: pointer;
 	background-color: var(--pressed-state-color);
+}
+.gallery-item .title-second {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	
 }
