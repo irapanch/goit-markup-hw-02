@@ -91,7 +91,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: var(--hero-color);
+	color: var(--white-background-color);
 	background-color: var(--primary-brand-color);
 	cursor: pointer;
 }
