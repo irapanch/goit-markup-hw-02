@@ -163,3 +163,6 @@ body {
 	line-height: 1.2;
 	
 }
+.gallery-project-text {
+	color: var(--text-color);
+}
